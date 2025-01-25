@@ -1,0 +1,183 @@
+.user-management {
+  max-width: 800px; /* Limit the width of the box */
+  margin: 50px auto; /* Center the box horizontally and add vertical spacing */
+  padding: 30px; /* Add padding for inner content */
+  font-family: 'Poppins', sans-serif; /* Use a clean font */
+  border-radius: 10px; /* Smooth rounded corners */
+  background: linear-gradient(135deg, #f0f2f5, #dfe3e8); /* Gradient background for a clean look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for elevation */
+}
+
+h2, h3 {
+  text-align: center; /* Center-align headings */
+  font-size: 24px; /* Larger font size for main headings */
+  font-weight: 600; /* Slightly bolder font */
+  color: #333; /* Dark gray for better readability */
+  margin-bottom: 20px; /* Add spacing below the headings */
+}
+
+.add-user-form, .user-list {
+  margin-top: 20px;
+  padding: 20px; /* Increase padding for spacing */
+  border-radius: 8px; /* Slightly rounded corners */
+  background: #ffffff; /* Clean white background for the forms/tables */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Shadow for elevation */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+  display: flex;
+  justify-content: space-between; /* Space between label and input */
+  align-items: center; /* Vertically align the label and input */
+  width: 100%;
+}
+
+.form-group label {
+  margin-right: 10px; /* Space between label and input */
+  font-weight: 500;
+  color: #5c636a;
+  font-size: 14px; /* Smaller font for labels */
+  width: 40%; /* Control width of label */
+}
+
+.form-group input {
+  padding: 8px 8px; /* Smaller padding for compact input fields */
+  border: 1px solid #ced4da; /* Subtle border */
+  border-radius: 6px; /* Rounded input fields */
+  font-size: 14px; /* Text size */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  width: 55%; /* Slightly smaller width for the input */
+}
+
+.form-group input:focus {
+  border-color: #495057;
+  outline: none;
+  box-shadow: 0 0 4px rgba(73, 80, 87, 0.3); /* Subtle focus effect */
+}
+
+.add-user-btn {
+  padding: 10px 15px; /* Button size */
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #4e73df, #3759c8);
+  color: white;
+  font-size: 16px; /* Slightly larger font for the buttons */
+  font-weight: 600; /* Bold text */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover animations */
+  margin-top: 15px; /* Add spacing above the button */
+}
+
+.add-user-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(78, 115, 223, 0.3); /* Highlight on hover */
+}
+
+table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse;
+  margin-top: 15px; /* Spacing above table */
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden; /* Ensure rounded corners for table */
+}
+
+th, td {
+  padding: 12px; /* Increase padding */
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0; /* Subtle border */
+  font-size: 14px;
+}
+
+th {
+  background: linear-gradient(135deg, #4e73df, #3759c8); /* Gradient header */
+  color: white;
+  font-weight: 600; /* Bold text for header */
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 12px; /* Button size */
+  border: none;
+  border-radius: 6px; /* Rounded buttons */
+  cursor: pointer;
+  font-size: 14px; /* Button text size */
+  font-weight: 600; /* Bold text */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover animations */
+}
+
+.edit-btn {
+  background: linear-gradient(45deg, #ffb74d, #f57c00);
+  color: white;
+}
+
+.delete-btn {
+  background: linear-gradient(45deg, #ef5350, #d32f2f);
+  color: white;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+.form-group {
+  margin-bottom: 20px; /* Increased bottom margin for better spacing between form fields */
+  display: flex;
+  justify-content: space-between; /* Space between label and input */
+  align-items: center; /* Vertically align the label and input */
+  width: 100%;
+}
+
+.form-group label {
+  margin-right: 20px; /* Increased space between label and input */
+  font-weight: 500;
+  color: #5c636a;
+  font-size: 14px; /* Smaller font for labels */
+  width: 35%; /* Adjusted width of the label */
+}
+
+.form-group input {
+  padding: 8px 8px; /* Padding for the input box */
+  border: 1px solid #ced4da; /* Subtle border */
+  border-radius: 6px; /* Rounded input fields */
+  font-size: 14px; /* Text size */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  width: 60%; /* Slightly smaller width for the input box */
+}
+
+.add-user-btn {
+  padding: 10px 15px; /* Button size */
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #4e73df, #3759c8);
+  color: white;
+  font-size: 16px; /* Slightly larger font for the buttons */
+  font-weight: 600; /* Bold text */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover animations */
+  margin-top: 15px; /* Add spacing above the button */
+}
+
+.add-user-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(78, 115, 223, 0.3); /* Highlight on hover */
+}
+
+.go-to-dashboard-btn {
+  margin-top: 20px; /* Add more top margin for spacing */
+  width: auto;
+  display: inline-block; /* Ensure it doesn't take full width */
+}
+/* Adjust the gap between First Name label and input field */
+#firstName + .form-group label {
+  margin-bottom: 5px; /* Decrease the margin between label and input box */
+}
+/* Reduce gap between First Name label and input */
+.form-group:first-of-type label {
+  margin-bottom: 5px; /* Reduce gap between label and input box */
+}
+
+/* Optional: Decrease the padding of the input box itself for better alignment */
+.form-group:first-of-type input {
+  padding: 8px 8px;
+}
+
